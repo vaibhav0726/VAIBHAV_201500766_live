@@ -15,7 +15,7 @@ html, body{
 
 .nav{
     padding-top: 0px;
-    padding-right: 1000px;
+    padding-right: 200px;
 }
 
 .nav ul{
@@ -48,22 +48,25 @@ html, body{
     text-align: center;
     font-size: 1.1rem;
     font-weight: bold;
+    padding-right: 0px;
 }
 
 .main-nav li{
-    padding: 0 2%;
+    /* padding: 0 2%; */
 }
 
 .search-btn{
     background-color: red;
+    padding: 0px;
+    margin-left: 0px;
     /* margin-right: 760px; */
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 .image{
-    background-color: white;
-    background-size: cover;
-    margin-top: 25px;
+    /* background-color: white; */
+    /* background-size: cover; */
+    margin-top: 20px;
     margin-left: 100px;
     width: 200px;
     height: 50px;
@@ -79,11 +82,9 @@ html, body{
 .material-symbols-outlined.md-36 
 {
     margin-top: 25px;
+    height: -110px;
     font-size: 36px; 
-    padding: 0px;
     color: white;
-    height: 1.2px;
-    box-sizing: border-box;
 }
 
 
@@ -155,7 +156,7 @@ html, body{
 .underline{
     color: black;
     margin-top: 14px;
-    text-decoration: underline red 3px;
+    text-decoration: underline red 2.5px;
 }
 
 .meta-contener .desc {
@@ -171,6 +172,7 @@ html, body{
     display: flex;
     width: 80%;
     height: 40px;
+    /* margin-right: 60px; */
 }
 
 .button1-contener span{
@@ -178,6 +180,7 @@ html, body{
 }
 
 .button1-contener .button {
+    margin-left: -15px;
     width: 100%;
     padding: 6px 0;
     text-decoration: none;
@@ -185,6 +188,25 @@ html, body{
     border-radius: 5px;
     font-size: 14px;
     transition: all 0.3s;
+}
+
+.card{
+    margin-left: 265px;
+}
+
+.card .plus
+{
+    /* border: 1px solid purple; */
+    position:relative;
+    border-top: 80px solid transparent;
+    border-right: 80px solid #eb0028;
+    display: flex;
+}
+.fa-plus {
+    position: absolute;
+    top: -32px;
+    right: -60px;
+    color: white;
 
 }
 
@@ -214,3 +236,11 @@ footer h2{
 footer h2:first-child{
     margin-left: 190px;
 }
+
+.fa-circle-chevron-up {
+    color: black;
+    font-size: 40px;
+    position: fixed;
+    top: 500px;
+    right: 20px;
+  }
