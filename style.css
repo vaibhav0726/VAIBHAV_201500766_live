@@ -37,6 +37,7 @@ html, body{
 }
 
 .nav a:hover{
+    height: 88px;
     color: red;
     background-color: rgb(201, 186, 186,.3);
 }
@@ -46,9 +47,6 @@ html, body{
     text-align: center;
     font-size: 1.1rem;
     font-weight: bold;
-    /* display: flex; */
-    /* padding-bottom: 50px;     */
-    /* padding-top: 20px; */
 }
 
 .main-nav li{
@@ -56,12 +54,13 @@ html, body{
 }
 
 .search-btn{
-    /* background-color: red; */
+    background-color: red;
     padding: 0px;
+    margin: 0px;
+    background-size: cover;
 }
 
 .image{
-    /* border: 1px solid red; */
     background-color: white;
     background-size: cover;
     margin-top: 25px;
@@ -78,12 +77,11 @@ html, body{
 
 .material-symbols-outlined.md-36 
 {
-    margin-top: 30px;
+    margin-top: 25px;
     font-size: 36px; 
-    /* border: 1px solid red; */
     padding: 0px;
-    /* color: white; */
-    color: red;
+    color: white;
+    height: 1.2px;
     box-sizing: border-box;
 }
 
@@ -100,11 +98,6 @@ html, body{
     text-align: center;
 }
 
-
-
-
-
-/* PRIYANSHU */
 .index-post {
     width: 100%; transition: all 1.5s;
     height: 100%; overflow: hidden; 
@@ -116,7 +109,6 @@ html, body{
 
 .contener {
     float: left;
-    /* margin: 36px;     */
     margin-left: 90px;
     display: flex;
     align-items: center;
@@ -132,10 +124,6 @@ html, body{
     box-shadow: 0 11px 14px rgb(0 0 0 / 25%), 0 8px 20px rgb(0 0 0 / 10%);  
 }
 
-/* .contener:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 11px 14px rgb(0 0 0 / 25%), 0 8px 20px rgb(0 0 0 / 10%);
-} */
 
 .image-contener {
     display: block;
@@ -150,7 +138,6 @@ html, body{
 
 .meta-contener {
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
     height: 100px;
     padding: 10px 20px;
@@ -166,7 +153,6 @@ html, body{
 
 .underline{
     color: black;
-    /* border-bottom: red;0 */
     margin-top: 14px;
     text-decoration: underline red 3px;
 }
@@ -174,7 +160,6 @@ html, body{
 .meta-contener .desc {
     font-size: 16px;
     font-weight: 100;
-    /* text-align: center; */
     color: #373737;
 }
 
@@ -183,9 +168,7 @@ html, body{
     margin-left: 0px;
     padding-left: 0px;
     display: flex;
-    /* align-items: center; */
     width: 80%;
-    /* text-align: center; */
     height: 40px;
 }
 
@@ -197,17 +180,12 @@ html, body{
     width: 100%;
     padding: 6px 0;
     text-decoration: none;
-    /* background: linear-gradient(125deg, #00ff35 0%, #0091a7 60%); */
     color: red;
     border-radius: 5px;
     font-size: 14px;
     transition: all 0.3s;
 
 }
-
-/* .button1-contener .button:hover {
-    padding-left: 15px;
-} */
 
 @media screen and (max-width:1124px){
     .index-post{
@@ -220,56 +198,11 @@ html, body{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.school-container h1{
-    color: rgb(4 255 12);
-    font-size: 50px;
-    text-align: center;
-    padding-bottom: 20px;
-}
-.school{
-    /* border: 2px solid red; */
-    margin-top: 80px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.school .box{ 
-    border: 2px solid brown;
-    padding: 10px 10px;
-    margin: 2px 10px;
-    width: 200px;
-    border-radius: 23px;
-    background: #f2f2f2;
-    margin-bottom: 20px;
-}
-.school .box img{ 
-   height: 150px;
-   margin: auto;
-   display: block;
-}
-.school .box h2{
-    font-size: 20px;
-    color: rgb(168, 12, 12);
-    text-align: center;
-}
-
-
 /* footer  */
 footer{
     margin-top: 60px;
     color: black;
+    margin-bottom: 60px;
 }
 
 footer h2{
