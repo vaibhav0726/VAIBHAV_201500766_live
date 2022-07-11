@@ -15,6 +15,7 @@ html, body{
 
 .nav{
     padding-top: 0px;
+    padding-right: 1000px;
 }
 
 .nav ul{
@@ -55,8 +56,7 @@ html, body{
 
 .search-btn{
     background-color: red;
-    padding: 0px;
-    margin: 0px;
+    /* margin-right: 760px; */
     background-size: cover;
 }
 
@@ -70,6 +70,7 @@ html, body{
 }
 
 .main-header{
+    padding-right: 440px;
     padding-top: 0px;
     display: flex;
     border-bottom: 4px solid rgba(198, 210, 211, 0.3);
